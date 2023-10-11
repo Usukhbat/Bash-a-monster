@@ -1,7 +1,7 @@
 public class Weapons {
     int damage;
 
-    public Weapons() {
-        damage = (int) (Math.random() * 10);
+    public Weapons(int x) {
+        damage = (int) ((Math.random() * 10)+x);
     }
 }
